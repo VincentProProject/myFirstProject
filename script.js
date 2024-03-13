@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
 // Code pour le menu hamburger
 document.getElementById("toggleMenu").addEventListener("click", function () {
   var menu = document.getElementById("menu");
