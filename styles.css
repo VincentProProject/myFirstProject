@@ -1,0 +1,257 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-style: unset;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: var(--bs-gray-800);
+  border: 1px solid var(--bs-gray-200);
+  border-radius: 0.25rem;
+  background-image: url("fds.jpg");
+  background-size: cover;
+}
+
+.fantastic-text {
+  text-align: center;
+  font-family : 'Marvelouz DSG', sans-serif; 
+  font-size: 30px; /* Ajustez la taille de la police si nécessaire */
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+#flipkart-navbar {
+  background-color: #726d6d00;
+  color: #1c1b1b;
+  padding: 10px;
+  text-align: center;
+}
+
+.row1 {
+  padding: 10px 20px; /* Ajustez les rembourrages */
+  text-align: center;                                      
+}
+
+
+.item-number {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.147);
+  height: 20px;
+  padding: 3px 6px;
+  font-weight: 500;
+  display: inline-block;
+  color: #ffffff;
+  line-height: 12px;
+  margin-left: 10px;
+}
+
+.upper-links {
+  display: inline-block;
+  padding: 10px 10px;
+  line-height: 20px;
+  font-family : 'Marvelouz DSG', sans-serif;   
+  letter-spacing: 0;
+  color: inherit;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-align: right;                                           
+}
+
+
+
+.links {
+  color: #444444;
+  text-decoration: none;
+  text-align: center;
+}
+
+.links:hover {
+  color: #cdcccc;
+  text-decoration: none;
+}
+
+.profile-links {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  display: block;
+  padding: 0 11px;
+  line-height: 23px;
+}
+
+.profile-li{
+  padding-top: 2px;
+}
+
+.largenav {
+  display: none;
+}
+
+.smallnav{
+  display: block;
+}
+
+.smallsearch{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.menu{
+  cursor: pointer;
+  font-family : 'Marvelouz DSG', sans-serif ; 
+}
+
+@media screen and (min-width: 768px) {
+  .largenav {
+      display: block;
+  }
+  .smallnav{
+      display: ;
+  }
+  .smallsearch{
+      margin: 0px;
+  }
+}
+
+/*Sidenav*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  box-shadow: 0 4px 8px -3px #555454;
+  padding-top: 0px;
+  font-family : 'Marvelouz DSG', sans-serif ; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d0d0d0d5;
+  display: block;
+  transition: 0.3s
+  font-family : 'Marvelouz DSG', sans-serif ; 
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #ee0909;        
+}
+
+@media screen and (max-height: 450px) {
+.sidenav a {font-size: 18px;}
+}
+
+.sidenav-heading{
+  font-size: 36px;
+  color: #ffffff;
+  font-family : 'Marvelouz DSG', sans-serif ; 
+}
+
+
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px; /* Ajoute un espace entre les colonnes */
+}
+
+.footer-column:last-child {
+  margin-right: 20px; /* Supprime la marge à droite de la dernière colonne */
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 10;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #cb0000;
+  text-decoration: red;
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    flex-basis: 100%; /* Réinitialise la largeur à 100% sur les petits écrans */
+    margin-right: 0; /* Supprime la marge sur les petits écrans */
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    flex-basis: 100%; /* Réinitialise la largeur à 100% sur les petits écrans */
+    margin-right: 0; /* Supprime la marge sur les petits écrans */
+  }
+}
+
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: #9d9d9d;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 7px 8px rgb(234, 255, 0);
+  transition: background-color 0.9s; /* Ajoutez une transition au survol */
+  font-family: 'Marvelouz DSG', sans-serif;
+}
+
+#scrollToTopButton:hover {
+  background-color: #000000; /* Changement de couleur de fond au survol */
+}
+
+img.rounded {
+  float: center;
+  margin-right: 40px; /* Espacement à droite de l'image */
+}
+
+.morph img {
+  width: 200px;
+  height: 150px;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.morph :hover img {
+  width: 150px; /* on affiche l'image au carré */
+  height: 150px;
+  border-radius: 50%;  /* on arrondit l'image */
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
